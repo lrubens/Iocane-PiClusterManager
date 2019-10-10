@@ -1,0 +1,43 @@
+{
+    "iocane-cluster": {
+        "features": {},
+        "defaults": {
+            "nodes": [
+                "node1",
+                "node3",
+                "node2"
+            ]
+        },
+        "nodes": {
+            "node1": {
+                "Procs": "4",
+                "State": "UNKNOWN",
+                "Default": "YES",
+                "partitions": []
+            },
+            "node3": {
+                "Procs": "4",
+                "State": "UNKNOWN",
+                "Default": "YES",
+                "partitions": []
+            },
+            "node2": {
+                "Procs": "4",
+                "State": "UNKNOWN",
+                "Default": "YES",
+                "partitions": []
+            }
+        },
+        "partitions": {
+            "normal": {
+                "maxNodes": 65,
+                "DefaultTime": "2:0:0",
+                "DefMemPerCPU": "12000",
+                "PartitionName": "normal",
+                "AllowQos": "system,normal,long,preemptable,test",
+                "Default": "YES",
+                "MaxMemPerCPU": "12800"
+            }
+        }
+    }
+}

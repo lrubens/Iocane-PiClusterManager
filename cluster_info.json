@@ -1,0 +1,7 @@
+{
+  "Cluster Name": "Iocane",
+  "Total Nodes": 28,
+  "NFS Directory": "",
+  "Login Server": "192.168.1.4",
+  "Slurm Log Path": "/home/pi/cloud/log.txt"
+}

@@ -1,0 +1,33 @@
+{
+    "iocane-cluster": {
+        "features": {},
+        "defaults": {
+            "nodes": [
+                "node2",
+                "node1",
+                "node3"
+            ]
+        },
+        "nodes": {
+            "node2": {
+                "Procs": "4",
+                "State": "UNKNOWN",
+                "Default": "YES",
+                "partitions": []
+            },
+            "node1": {
+                "Procs": "4",
+                "State": "UNKNOWN",
+                "Default": "YES",
+                "partitions": []
+            },
+            "node3": {
+                "Procs": "4",
+                "State": "UNKNOWN",
+                "Default": "YES",
+                "partitions": []
+            }
+        },
+        "partitions": {}
+    }
+}
