@@ -5,9 +5,6 @@ CPU usage info. It then writes the retrieved information to a json file
 (node_info.json). The interface also allows users to submit parallel jobs to the 
 cluster using the slurm job scheduler.
 
-<!--### Web UI Screenshot
-![](img/web_capture.png)--!>
-
 ### Getting Started
 In order to install and start a new monitoring cluster of raspberry pi's, here 
 are the steps:
