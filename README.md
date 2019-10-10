@@ -6,7 +6,7 @@ CPU usage info. It then writes the retrieved information to a json file
 cluster using the slurm job scheduler.
 
 <!--### Web UI Screenshot
-<!--![](img/web_capture.png)
+![](img/web_capture.png)--!>
 
 ### Getting Started
 In order to install and start a new monitoring cluster of raspberry pi's, here 
