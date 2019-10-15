@@ -15,7 +15,8 @@ On the head node (raspberry pi):
 3. `sudo mv Iocane-PiClusterManager/* /var/www/html`
 4. Configure cluster_info.json to correspond to cluster info. 
 5. Configure node_info.json to correspond to each node in the cluster adding in their hostnames, usernames and password. 
-5. Start up backend of monitoring application: `sudo python3 start_server.py`
+6. Install required dependencies: `sudo python3 setup.py build && sudo python3 setup.py install`
+6. Start up backend of monitoring application: `sudo python3 start_server.py`
 
 Testing Web UI:
 1. Go to preferred web browser and search http://[Head_Node_IP]
