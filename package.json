@@ -4,7 +4,7 @@
     "babel-preset-env": "^1.7.0",
     "body-parser": "^1.18.3",
     "boostrap": "^2.0.0",
-    "codemirror": "^5.45.0",
+    "codemirror": "^5.58.2",
     "cors": "^2.8.5",
     "datatable": "^2.0.2",
     "datatables": "^1.10.18",
