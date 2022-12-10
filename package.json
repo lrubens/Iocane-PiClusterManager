@@ -11,7 +11,7 @@
     "datatables.net": "^1.10.19",
     "datatables.net-buttons": "^1.5.6",
     "datatables.net-responsive": "^2.2.3",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "filepond": "^4.3.5",
     "jQuery": "^1.7.4",
     "jquery": "^3.3.1",
